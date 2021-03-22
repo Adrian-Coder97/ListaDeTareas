@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-primary justify-content-center" id="Tarea">
+            <!--justify-content-center para alinear de los lados-->
+            <div class="col-lg-6 col-md-6 col-sm-8 col-12 align-self-center">
+                <!--align self center para alinear de arriba hacia abajo-->
+                <form action="" class="d-flex flex-column">
+                    <input id="cajaTexto" type="text" placeholder="Agregar Tarea"
+                        class="fs-2 p-2 form-control text-center" maxlength="30">
+                    <input id="btnEnviar" type="button" value="Agregar Tarea"
+                        class="btn btn-success w-75 align-self-center m-3 fs-2 p-2">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="lista" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ol id="listaOrdenada">
+                        <!-- <li class="p-3 fs-2 border-bottom border-5"><a href="" class=" quitar">tarea 1 </a>
+                        </li> -->
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+#Tarea{
+    height: 250px;/*altura del row con el fondo azul*/
+}
+
+.centrar::placeholder{
+    color: #B22222;/*para cambiar el color del placeholder de js si esta vacio el campo*/
+}
+
+.quitar{
+    text-decoration: none;
+}
+
+.quitar:hover{
+    text-decoration: line-through;
+}
